@@ -8,9 +8,9 @@ $(function(){
         slidesPerView: "auto",
         centeredSlides: true,
         spaceBetween: 12,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable :true,
         },
         on: {
             slideChangeTransitionEnd: function () {
@@ -56,4 +56,13 @@ $(function(){
         }
     }
 
+    //放大图片
+    $(".GAIAbook").click(function(){
+        $(".positionCenter").fadeIn(200);
+    });
+
+    //关闭图片
+    $(".positionCenter").click(function(){
+        $(".positionCenter").fadeOut(0);
+    });
 });
