@@ -1,29 +1,761 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8" />
-	<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fonts/font-css.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>GAIA ENTERPRISE SOFTWARE SOLUTION</title>
 </head>
-<script>
-	// var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-	// var h = window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
-	// if (w >= 750) {
-	// 	window.location.href = "./home-web.html";
-	// } else {
-	// 	window.location.href = "./home-wap.html";
-	// }
-	var userAgent = navigator.userAgent.toLowerCase();; //取得浏览器的userAgent字符串
-	if (/android/i.test(userAgent) || /(iphone|ipad|ipod|ios)/i.test(userAgent)) {
-		//alert("This is Android'browser.");//这是Android平台下浏览器
-		window.location.href = "./home-wap.html";
-	}else{
-		window.location.href = "./home-web.html";
-	}
-</script>
 
-<body>
+<header class="font_white" id="_header">
+    <nav class="nav  navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#_header" class="navbar-brand"><img id="logo" src="img/logo.png" title="logo"></a>
+            </div>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#_header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#wecan">
+                            <!-- class="dropdown-toggle" -->
+                            What We Do
+                            <!-- <b class="caret"></b> -->
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="#SoftwareDevelopment">Software development</a></li>
+                            <li><a href="#our_service">Website/System Operations and Maintenance</a></li>
+                            <li><a href="#onservice">Services Team Outsourcing</a></li>
+                        </ul> -->
+                    </li>
+                    <li>
+                        <a href="#why">
+                            Why Us
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="#SoftwareDevelopment">Software development5</a></li>
+                            <li><a href="#our_service">Website/System Operations and Maintenance3</a></li>
+                            <li><a href="#onservice">Services Team Outsourcing4</a></li>
+                        </ul> -->
+                    </li>
+                    <li>
+                        <a href="#service">
+                            Services
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="#SoftwareDevelopment">Software development2</a></li>
+                            <li><a href="#our_service">Website/System Operations and Maintenance3</a></li>
+                            <li><a href="#onservice">Services Team Outsourcing4</a></li>
+                        </ul> -->
+                    </li>
+                    <li>
+                        <a href="#last_two">Cases</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#contact_us">Contact us</a>
+                    </li>
+                    <!-- <li id="header_rates">RATES</li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="home">
+    <div class="container">
+        <div class="homeheader smallhide">
+            <h4 class="font-letter-3">GAIA IS A PROFESSIONAL TEAM THAT PROVIDES</h4>
+            <h1 class="font-letter-3 nowrap">A ONE-STOP ENTERPRISE I.T. SOFTWARE APPLICATION SERVICES.</h1>
+            <p class="font-letter-1">it is run by an international management team and enjoying the low human cost (compared to that of
+                california) and the brilliant talents of Chinese I.T. industry. </p>
+        </div>
+        <div class="row gaia-card">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <!-- class="wow bounceInUp"  data-wow-delay="0.3s"-->
+                <div class="card">
+                    <a href="#wecan">
+                        <!--<span class="iconfont icon-service"></span>-->
+                        <span class="icon-style icon-services"></span>
+                        <h4>SERVICES</h4>
+                    </a>
+                    <p>We deeply understand the software needs of enterprises of all scales. From listening and
+                        analyzing your need, to coding and maintaining, even modelling for your intelligent growth,
+                        we are your one-stop software solution hub. At least 5 Fortune 500 companies have enjoyed
+                        our services.</p>
+                    <h6 class="more"><a href="#wecan">MORE</a></h6>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="card">
+                    <a href="#contactUs">
+                        <!--<span class="iconfont icon-rates"></span>-->
+                        <span class="icon-style icon-ratess"></span>
+                        <h4>RATES</h4>
+                    </a>
+                    <p>We offer unbelievable service rates compared to that of Silicon Valley. Our highly skilled
+                        Chinese IT engineers will simply work better than Bangalore’s, and way more budget friendly than
+                        San Jose’s.<a href="#contactUs" class="yellow">Try asking for a guote</a></p>
+                    <h6 class="more"><a href="#contactUs">MORE</a></h6>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 
-</body>
+                <div class="card" id="tsheader">
+
+                    <span class="symbol">SPECIAL</span>
+                    <a href="#evendo">
+                        <!--<span class="iconfont icon-modelling"></span>-->
+                        <span class="icon-style icon-modellings"></span>
+                        <h4>MODELLING</br>Busness</br>Intelligence</h4>
+                    </a>
+                    <p>Our modelling team and product have helped lots of our clients in identifying their operation
+                        problems and boosting performances. We are especially familiar with real estates,
+                        agriculture,
+                        retail, and education BI solutions.</p>
+                    <h6 class="more"><a href="#evendo">MORE</a></h6>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+
+                <div class="card">
+                    <a href="#last_two">
+                        <!--<span class="iconfont icon-records"></span>-->
+                        <span class="icon-style icon-recordss"></span>
+                        <h4>RECOREDS</h4>
+                    </a>
+                    <p>Among others, 5 out of the Fortune 500 companies have been our clients. Over 120 systems (and
+                        counting) are running actively at this time worldwide. </p>
+                    <h6> <a href="#last_two">MORE</a></h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DEF--我们能做什么 -->
+<div class="container-fluid" id="wecan">
+    <div class="col-lg-5 col-md-5 col-xs-5 ">
+        <div class="h80 wecan-title">
+            <h2><span class="font_blue">WHAT</span> WE DO</h2>
+            <div class="btn-box font-FranklinGothic-Book">
+                <div class="part1 btn-blue">FOR START-UPS</div>
+                <div class="part3">FOR GAINTS</div><br>
+                <div class="part2">FOR SMALL/MIDDLE SIZED ENTERPRISES</div>
+            </div>
+        </div>
+        <div class="h20">
+            <div><img src="img/we_canone.png" alt=""></div>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-7 col-xs-7">
+        <h1 class="bannerh1 display-none font-letter-3">WHAT WE DO</h1>
+        <div id="myCarousel_one">
+            <div class="font_white for-scroll-box">
+                <div class="for-scroll">
+                    <div class="" id="part1">
+
+                        <h3 class="font-letter-2">FOR START-UPS</h3>
+                        <p class="banner_text font-letter-1">
+                            We are especially friendly to those “We’ve got everything now all we need is a coder”
+                            type of start-ups. We will listen to what your ideas are, and tell you the most
+                            efficient way to realize your big dreams. We know how important costs mean to you (we
+                            were a start-up, too) at this stage, and we’ll fight for every penny that you can save
+                            on programming, or related. (And if your idea doesn’t work technically no matter what,
+                            we’ll be honest with you, too.
+                        </p>
+                    </div>
+                    <div id="part2">
+                        <h3 class="font-letter-2">For SMALL/MIDDLE SIZED ENTERPRISES</h3>
+                        <p class="banner_text font-letter-1">We know what’s been bothering you, as all our customers have told us.
+                            Informatization is painful. You can’t believe your employees are still spending 1/3 of
+                            their time fighting with the system that’s supposed to help them? Unbearable response
+                            time from your IT vendor? Or your IDC has been charging you 3 times you need, for ages?
+                            Or simply, “we know we need a system but we just don’t know where to start.” And you are
+                            not one of those companies that can live with SAP/IBM’s incredible rates.
+                        </p>
+                    </div>
+                    <div id="part3">
+                        <h3 class="font-letter-2">For GAINTS</h3>
+                        <p class="banner_text font-letter-1">
+                            We know it’s hard to earn your businesses. Sometimes you just have to
+                            pay for the big names. That’s ok. But there’re things that they totally suck at. Such as
+                            data modelling and business intelligence. In general, to be good at this you need at
+                            least 3 things combined:
+                            1. The willingness and ability to listen and learn your business;
+                            2. Data analytical skillset (THIS IS MATH, NOT PROGRAMMING!);
+                            3. Endurance of endless tuning.
+                            And while the big names suck at 1, 2, 3, esp. 2, we are exceptionally good at all of
+                            them combined. Because we are the reason that they suck (after we left them).
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--<ol class="carousel-indicators" data-ride="carousel" data-interval="1000">
+                <li data-target="#myCarousel_one" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel_one" data-slide-to="1"></li>
+                <li data-target="#myCarousel_one" data-slide-to="2"></li>
+            </ol>-->
+        </div>
+    </div>
+</div>
+<!-- DEF--为什么选择我们 -->
+<div class="container-fluid" id="why">
+    <div class="col-lg-10 col-md-10 col-xs-10">
+        <div id="whyPimg"><img src="img/why.png" alt=""></div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-xs-0"></div>
+            <div class="col-lg-10 col-md-10 col-xs-12" id="whyP">
+                <h2><span class="font_blue">WHY</span> US</h2>
+                <div id="myCarousel_two" class="">
+                    <div class="font_white">
+                        <div class="">
+                            <h3 class="font-letter-2">WE ARE CODERS THAT TALKS</h3>
+                            <p class="banner_text">
+                                <a href="#how_worker" class="bule whya font-letter-1">We believe words are equally, if not more, important
+                                    as codes, in our line of
+                                    work.</a>
+                            </p>
+                        </div>
+                        <div class=" ">
+                            <h3 class="font-letter-2">WE BELIEVE PROCESS AND STRUCTURE MATTER</h3>
+                            <p class="banner_text font-letter-1">
+                                We put great emphasis on planning and structure so you won’t be spending 2 months
+                                constructing the system and the next 12 months debugging/patching it. (because of our
+                                methodology, our systems are always BI ready)
+                            </p>
+                        </div>
+                        <div class=" ">
+                            <h3 class="font-letter-2">WE ARE VERSATILE AND EXPERIENCED</h3>
+                            <p class="banner_text font-letter-1">
+                                We’ve helped companies of all sizes, from <a href="#last_two" class="bule whya">COMMUNITY
+                                    REAL ESTATEAGENTS</a>
+                                to<a href="#last_two" class="bule whya">FORTUNE 500s</a>,to improve their IT tools and
+                                alilities.
+                            </p>
+                        </div>
+                    </div>
+                    <!--<ol class="carousel-indicators" data-ride="carousel" data-interval="1000">
+                        <li data-target="#myCarousel_two" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel_two" data-slide-to="1"></li>
+                        <li data-target="#myCarousel_two" data-slide-to="2"></li>
+                    </ol>-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DEF--我们怎么工作、、 -->
+<div class="container" id="how_worker">
+    <div>
+        <h2 class="nowrap"><span class="font_blue">HOW</span>WE WORK<em class="font-letter-1 nowrap">Brief list of work scope</em></h2>
+        <p class="maringtop40 font-letter-1">OUR BILINGUAL PROJECT MANAGERS.</p>
+        <h3><span class="workback1 font-letter-2"></span>LISTENING <span class="workback2 paddingleft50"></span>TALKING<span
+                class="workback3 paddingleft50"></span>SKETCHING</h3>
+        <div class="border-top"></div>
+        <p class="maringtop40 font-letter-1">OUR DILIGGENT CODERS</p>
+        <h3 class="font-letter-2"><span class="workback4"></span>CODING<span
+                class="workback5 paddingleft50"></span>MAINTAINING</h3>
+    </div>
+    <div>
+        <img src="img/howworker.png" alt="">
+    </div>
+</div>
+<!-- OUR SERVICE -- DEV、、 -->
+<div class="container-fluid" id="service">
+    <div class="row" id="SoftwareDevelopment">
+        <div class="col-lg-11 col-md-11 col-xs-12" id="software">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-xs-0"></div>
+                <div class="col-lg-8 col-md-8 col-xs-12 bac-box">
+                    <div class="bac">
+                        OUR SERVICE
+                    </div>
+                    <h2><span class="font_blue">SOFTWARE</span>DEVELOPMENT</h2>
+                </div>
+            </div>
+            <div class="row fontsizeblue">
+                <div class="col-lg-2 col-md-2 col-xs-0"></div>
+                <div class="col-lg-2 col-md-3 col-xs-6 ">
+                    <div class="sortware_ico">
+                        <div class="planning imgmaring imgmaringone"></div>
+                    </div>
+                    <h3 class="font_blue font-letter-1">PLANNING</h3>
+                    <h3 class="font_blue mt-10 mb-26 font-letter-1">/DEMAND ANALYSIS</h3>
+                    <p class="font-style">
+                        RECREATING SCENARIO -> SYSTEM ARCHITECTURE -> DATA STRUCTURE
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-xs-6 ">
+                    <div class="sortware_ico">
+                        <div class="design imgmaring imgmaringtwo"></div>
+                    </div>
+                    <h3 class="font_blue font-letter-1">DESIGN</h3>
+                    <h3 class="font_blue mt-10 mb-26 font-letter-1">/UI/UE</h3>
+                    <p class="font-style">
+                        We provide professional prototype design, sophisticated UI design and humanized UE design
+                        services to help customers build simple and easy-to-use websites or systems.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-xs-6">
+                    <div class="sortware_ico">
+                        <div class="img software imgmaring imgmaringthree"></div>
+                    </div>
+                    <h3 class="font_blue font-letter-1">CODING</h3>
+                    <h3 class="font_blue mt-10 mb-26 font-letter-1">& TESTING</h3>
+                    <p class="font-style">
+                        Provide customers with professional customized system architecture design, website and
+                        software
+                        development and testing services to ensure the high quality and robustness of the system on
+                        the
+                        basis of meeting customer requirements for system performance.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-xs-6 ">
+                    <div class="sortware_ico">
+                        <div class="design imgmaring imgmaringfour"></div>
+                    </div>
+                    <h3 class="font_blue mb-52">MODELLING</h3>
+                    <h3 class="font_blue"></h3>
+                    <p class="font-style">
+                        Our modelling team and product have helped lots of our clients in identifying their operation problems and boosting performances. We are especially familiar with real estates, agriculture, retail, and education BI solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Service——Operation/Main、、 -->
+<div id="ourServiceHight">
+    <div class="row no-gutters">
+        <div class="col-lg-12 col-md-12 col-xs-12" id="our_service">
+            <div class="container">
+                <div>
+                    <h2 class="font-space-4 mb-27 font-letter-5">WEBSITE/SYSTEM OPERATIONS AND MAINTENANCE</h2>
+                    <p class="font-letter-1 nowrap">7*24 Online after-sales service to provide customers with high availability, high concurrency of
+                        website or system main tenance services to ensure the stable</p>
+                    <p>operation of the website or system</p>
+                </div>
+                <div class="row" id="our_lg">
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                        <h3 class="font-letter-2">LINUX</h3>
+                        <p><span></span>Deploy. net core applications and update systems as needed</p>
+                        <p><span></span>Deployment of Tomcat-based applications</p>
+                        <p><span></span>Using Middleware to Configure the Load Balancing of Web Sites</p>
+                        <p><span></span>Build and manage MySql and PostGresql databases</p>
+                        <p><span></span>Build docker platform, deploy applications and software</p>
+                        <p><span></span>Build SVN / git code management platform</p>
+                        <p><span></span>Building Jenkins Continuous Integration Platform</p>
+                        <p><span></span>Build a monitoring platform to monitor the use of CPU, memory, network and other
+                            resources of the monitoring system, and notify the relevant personnel when an exception
+                            occurs</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                        <h3 class="font-letter-2">WINDOWS</h3>
+                        <p><span></span>Deployment and management of websites, using IIS to deploy websites and manage
+                            websites, update websites as needed</p>
+                        <p><span></span>Using Middleware to Configure the Load Balancing of Web Sites</p>
+                        <p><span></span>Building FTP services</p>
+                        <p><span></span>Building Mailbox Service</p>
+                        <p><span></span>Build and manage SQL Server, MySql and PostGresql databases</p>
+                        <p><span></span>Build SVN / git code version management platform</p>
+                        <p><span></span>Using bat/power shell to write maintenance and monitoring scripts</p>
+                        <p><span></span>Deployment and periodic inspection of planned tasks</p>
+                        <p><span></span>Server monitoring and processing, timely handling of server exceptions,
+                            including CPU, memory, network exception handling</p>
+                        <p><span></span>Install anti-virus software, regularly clean up viruses, and check suspicious
+                            files affecting the </p>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                        <h3 class="font-letter-2">OTHERS</h3>
+                        <p><span></span>Domain name application and filing</p>
+                        <p><span></span>Registration and Management of Wechat Public Number</p>
+                        <p><span></span>HTTPS certificate management and binding</p>
+                        <p><span></span>Planning and Implementation of Company Network</p>
+                        <p><span></span>Purchase and Maintenance of Cloud Host</p>
+                    </div>
+                </div>
+                <div class="row" id="our_xs">
+                    <div class="col-xs-12">
+                        <h3>LINUX</h3>
+                        <p><span></span>Deploy. net core applications and update systems as needed</p>
+                        <p><span></span>Deployment of Tomcat-based applications</p>
+                        <p><span></span>Using Middleware to Configure the Load Balancing of Web Sites</p>
+                        <p><span></span>Build and manage MySql and PostGresql databases</p>
+                        <p><span></span>Build docker platform, deploy applications and software</p>
+                        <p><span></span>Build SVN / git code management platform</p>
+                        <p><span></span>Building Jenkins Continuous Integration Platform</p>
+                        <p><span></span>Build a monitoring platform to monitor the use of CPU, memory, network and other
+                            resources of the monitoring system, and notify the relevant personnel when an exception
+                            occurs</p>
+                        <h3>WINDOWS</h3>
+                        <p><span></span>Deployment and management of websites, using IIS to deploy websites and manage
+                            websites, update websites as needed</p>
+                        <p><span></span>Using Middleware to Configure the Load Balancing of Web Sites</p>
+                        <p><span></span>Building FTP services</p>
+                        <p><span></span>Building Mailbox Service</p>
+                        <p><span></span>Build and manage SQL Server, MySql and PostGresql databases</p>
+                        <p><span></span>Build SVN / git code version management platform</p>
+                        <p><span></span>Using bat/power shell to write maintenance and monitoring scripts</p>
+                        <p><span></span>Deployment and periodic inspection of planned tasks</p>
+                        <p><span></span>Server monitoring and processing, timely handling of server exceptions,
+                            including CPU, memory, network exception handling</p>
+                        <p><span></span>Install anti-virus software, regularly clean up viruses, and check suspicious
+                            files affecting the </p>
+                        <h3>OTHERS</h3>
+                        <p><span></span>Domain name application and filing</p>
+                        <p><span></span>Registration and Management of Wechat Public Number</p>
+                        <p><span></span>HTTPS certificate management and binding</p>
+                        <p><span></span>Planni g and Implementation of Company Network</p>
+                        <p><span></span>Purchase and Maintenance of Cloud Host</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="contactUs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 us_Explain">
+                <h2>TELL US ABOUT YOUR<br> NEED, AND LET US TAKE CARE OF YOUR BUDGET</h2>
+                <p>WE OFFERS GREAT SERVICE AT EVEN GREATER RATES</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 paddingleft10">
+                <div id="contactus_form">
+                    <div>
+                        <div class="cibtact_bottomborder">Quote based on Project</div>
+                        <div>Quote based on man*month</div>
+                    </div>
+                    <div>
+                        <div class="fromposition">
+
+                            <div class="from_select">
+                                <span>INDUSTRY</span>
+                                <div class="select_item">
+                                    <div class="filter-box box1">
+                                        <div class="filter-text">
+                                            <input class="filter-title" type="text" readonly placeholder="SPECIFY:" />
+                                            <i class="icon icon-filter-arrow"></i>
+                                        </div>
+                                        <select name="filter">
+                                            <option value="unaudited">REAL ESTATE</option>
+                                            <option value="nothrough">RETAIL</option>
+                                            <option value="audit">EDUCATION</option>
+                                            <option value="audited">MEDICINE</option>
+                                            <option value="passed">SOFTWARE</option>
+                                            <option value="other">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" class="otherinput" placeholder="SPECIFY">
+                            </div>
+                            <div class="from_select">
+                                <span>COUNTRY</span>
+                                <div class="select_item">
+                                    <div class="filter-box box2">
+                                        <div class="filter-text">
+                                            <input class="filter-title" type="text" readonly placeholder="SPECIFY:" />
+                                            <i class="icon icon-filter-arrow"></i>
+                                        </div>
+                                        <select name="filter">
+                                            <option value="Unite States">Unite States</option>
+                                            <option value="Great China Region">Great China Region</option>
+                                            <option value="Europe">Europe</option>
+                                            <option value="other">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" class="otherinput" placeholder="SPECIFY">
+                            </div>
+                            <div class="from_select">
+                                <span>DESIRED PLATFORM</span>
+                                <div class="select_item">
+                                    <div class="filter-box box5">
+                                        <div class="filter-text">
+                                            <input class="filter-title" type="text" readonly placeholder="SPECIFY:" />
+                                            <i class="icon icon-filter-arrow"></i>
+                                        </div>
+                                        <select name="filter">
+                                            <option value="care">We don’t care</option>
+                                            <option value="net">.NET/.NET CORE</option>
+                                            <option value="java">JAVA</option>
+                                            <option value="php">PHP</option>
+                                            <option value="other">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" class="otherinput" placeholder="SPECIFY">
+                            </div>
+                            <div>
+                                <span>WEBSITE</span>
+                                <input type="text" placeholder="Your company’s website">
+                                <p class="tszs">optional. Knowing your company help us estimate better.</p>
+                            </div>
+                            <div class="margingbottom10">
+                                <span>EMAIL</span>
+                                <input type="text" placeholder="Your email">
+                            </div>
+                            <div class="contact_button">
+                                <button type="submit" class="btn btn-primary onebutton">SUBMIT</button>
+                                <button id="reset">RESET</button>
+                            </div>
+                        </div>
+                        <div style="display: none" class="fromposition">
+                            <div>
+                                <span>INDUSTRY</span>
+                                <div class="select_item">
+                                    <div class="filter-box box3">
+                                        <div class="filter-text">
+                                            <input class="filter-title" type="text" readonly placeholder="SPECIFY:" />
+                                            <i class="icon icon-filter-arrow"></i>
+                                        </div>
+                                        <select name="filter">
+                                            <option value="new">REAL ESTATE</option>
+                                            <option value="unaudited">RETAIL</option>
+                                            <option value="nothrough">EDUCATION</option>
+                                            <option value="audit">MEDICINE </option>
+                                            <option value="audited">SOFTWARE</option>
+                                            <option value="other">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" class="otherinput" placeholder="SPECIFY">
+                            </div>
+                            <div class="from_select">
+                                <span>COUNTRY</span>
+                                <div class="select_item">
+                                    <div class="filter-box box4">
+                                        <div class="filter-text">
+                                            <input class="filter-title" type="text" readonly placeholder="SPECIFY:" />
+                                            <i class="icon icon-filter-arrow"></i>
+                                        </div>
+                                        <select name="filter">
+                                            <option value="REALESTATE">Unite States</option>
+                                            <option value="Unite States">Great China Region</option>
+                                            <option value="Europe">Europe</option>
+                                            <option value="other">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" class="otherinput" placeholder="SPECIFY">
+                            </div>
+                            <div class="from_select">
+                                <span>DESIRED PLATFORM</span>
+                                <div class="select_item">
+                                    <div class="filter-box box6">
+                                        <div class="filter-text">
+                                            <input class="filter-title" type="text" readonly placeholder="SPECIFY:" />
+                                            <i class="icon icon-filter-arrow"></i>
+                                        </div>
+                                        <select name="filter">
+                                            <option value="care">We don’t care</option>
+                                            <option value="net">.NET/.NET CORE</option>
+                                            <option value="java">JAVA</option>
+                                            <option value="php">PHP</option>
+                                            <option value="other">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="text" class="otherinput" placeholder="SPECIFY">
+                            </div>
+                            <div>
+                                <span>ENGINEERS</span>
+                                <input type="text" placeholder="of engineers needed">
+                            </div>
+                            <div>
+                                <span>WEBSITE</span>
+                                <input type="text" placeholder="Your company’s website">
+                                <p class="tszs">optional. Knowing your company help us estimate better.</p>
+                            </div>
+                            <div class="margingbottom10">
+                                <span>EMAIL</span>
+                                <input type="text" placeholder="Your email">
+                            </div>
+                            <div class="contact_button">
+                                <button type="submit" class="btn btn-primary onebutton">SUBMIT</button>
+                                <button id="reset">RESET</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-flid bannerthree-slide" id="evendo">
+    <div class="container banner_position">
+        <h2 class="font-letter-3">YES WE EVEN DO<br>DATA MODELLING</h2>
+        <h4>WE HAVE PARTICULAR EXPERTISE IN REAL ESTATES, AGRICULTURE, RETAIL</h4>
+        <h4>AND EDUCATION MODELLING. FOR ANY IN-DEPTH INQUIRY, PLEASE <a href="#contact_us" class="colorhref">CONTACT
+                US</a></h4>
+    </div>
+</div>
+
+<div id="last_two">
+    <div class="container">
+        <div>
+            <!-- -- 案例分享  -- -->
+            <h2 class="font_blue font-letter-5">CASES</h2>
+            <div id="Case">
+                <ul>
+                    <li>
+                        <div>
+                            <div class="img case_one"></div>
+                        </div>
+                        <h3 class="mb-20">SHELL</h3>
+                        <p class="font-letter-1">5th in the world's top 500 companies in 2018</p>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="img case_two"></div>
+                        </div>
+                        <h3 class="mb-20">COFCO JOY CITY</h3>
+                        <p class="font-letter-1">122nd in the world's top 500 companies in 2018</p>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="img case_three"></div>
+                        </div>
+                        <h3 class="mb-20">CISCO</h3>
+                        <p class="font-letter-1">212th in the world's top 500 companies in 2018</p>
+                    </li>
+                    <li>
+                        <div id="lenovo">
+                            <div class="img case_four"></div>
+                        </div>
+                        <h3 class="mb-20">LENOVO</h3>
+                        <p class="font-letter-1">240th in the world's top 500 companies in 2018</p>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="img case_five"></div>
+                        </div>
+                        <h3 class="mb-20">MITSUBISH MOTORS</h3>
+                        <p class="font-letter-1">The 482th World Top 500 Enterprises in 2012</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- -- 联系我们  -- -->
+            <!--  <div class="row" id="contact_us">
+                <div class="col-lg-3 col-md-3">
+                    <div class="imgposition">
+                        <div class="img gaia"></div>
+                        <div class="img gaia_erweima"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 afterchoose">
+                    <h4>Contact us</h4>
+                    <p class="one_p"><span>Add：</span>1719 Building A,Jiatai InternationalMansion, No. 41 Mid East 4th
+                        Ring Rd.,
+                        Beijing</p>
+                    <p class="p_paddingleft"><span>E-mail:</span> GAIA@gaia.asia</p>
+                    <p><span>Fax:</span>+86（10）6520 2820</p>
+                    <p class="p_paddingleft"><span>Http:</span>//www.iwehave.com/</p>
+                    <p><span>Tel：</span>+86（10）6520 2820</p>
+                </div>
+                <div class="col-lg-3 col-md-3 threeafterchoose">
+                    <h4>Talent recruitment</h4>
+                    <p>software engineer</p>
+                    <p>Software Test Assistant</p>
+                    <p>Project Implementation Assistant</p>
+                    <p>Product Assistant</p>
+                </div>
+            </div>-->
+            <!-- -- 手机端 -- -->
+            <div id="contact_us_xs">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h4>Contact us</h4>
+                        <p><span>Add：</span>1719 Building A， Jiatai InternationalMansion, No. 41 Mid East 4th Ring
+                            Rd.,
+                            Beijing</p>
+                        <p><span>Tel：</span>+86（10）6520 2820</p>
+                        <p><span>Fax:</span>+86（10）6520 2820</p>
+                        <p><span>E-mail:</span> GAIA@gaia.asia</p>
+                        <p><span>Http</span>//www.iwehave.com/</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h4>Talent recruitment</h4>
+                        <p>software engineer</p>
+                        <p>Software Test Assistant</p>
+                        <p>Project Implementation Assistant</p>
+                        <p>Product Assistant</p>
+                        <div>
+                            <div class="img gaia"></div>
+                            <div class="img gaia_erweima"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="_top">
+        <a href="#_header"></a>
+    </div>
+</div>
+<div class="pc-footer font-letter-1" id="contact_us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-3">
+                <div class="imgposition">
+                    <div class="img gaia"></div>
+                    <div class="img gaia_erweima"></div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6 afterchoose">
+                <h4>Contact us</h4>
+               <div class="over-hidden">
+                   <p class="one_p over-hidden" style="padding-bottom: 5px">
+                      <!-- <span class="float-left" style="width: 40px;">Add：</span>-->
+                       <span class="float-right over-hidden" >
+                          <span class="over-hidden">
+                             <span class="float-left" style="width: 80px;">BEIJING:</span> <span class="float-right" style="width: calc(100% - 80px);padding-bottom: 40px;">1902 Building A, Jiatai International Mansion, No. 41 Mid East 4th Ring Rd., Beijing</span>
+                              <br>
+                              <span class="float-left" style="width: 100px;">KONG HONG: </span><span class="float-right" style="width: calc(100% - 100px);padding-bottom: 40px;">66/F, The Center 99 Queen's Road Central Hong Kong</span>
+                              <br>
+                              <span class="float-left" style="width: 111px;">LOS ANGELES:</span> <span class="float-right" style="width: calc(100% - 111px);padding-bottom: 40px;">656 W Huntington Drive, Arcadia</span>
+                          </span>
+                        </span>
+                   </p>
+                   <p class="p_paddingleft"><span>E-mail:</span> GAIA@gaia.asia</p>
+                   <p class="p_paddingleft"><span>Http:</span>//www.iwehave.com/</p>
+               </div>
+                <p><span>Fax:</span>+86（10）6520 2820</p>
+                <p class="p_paddingleft"></p>
+                <p><span>Tel：</span>+86（10）6520 2820</p>
+            </div>
+            <div class="col-lg-3 col-md-3 threeafterchoose">
+                <h4>Talent recruitment</h4>
+                <p>software engineer</p>
+                <p>Software Test Assistant</p>
+                <p>Project Implementation Assistant</p>
+                <p>Product Assistant</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./lib/jquery/jquery-1.11.1.min.js"></script>
+<script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
 
 </html>

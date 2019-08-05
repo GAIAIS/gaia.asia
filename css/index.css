@@ -1,0 +1,2154 @@
+@media (min-width: 1800px) {
+    .container {
+        width: 1450px;
+    }
+}
+
+.img {
+    background: url(../img/img.png) no-repeat;
+}
+
+.choose {
+    height: 11px;
+    width: 11px;
+    background-position: 0 0;
+}
+
+.gaia_erweima {
+    height: 51px;
+    width: 52px;
+    background-position: 0 -11px;
+}
+
+.gaia {
+    height: 48px;
+    width: 53px;
+    background-position: 0 -62px;
+}
+
+.software {
+    height: 75px;
+    width: 75px;
+    background: url('../img/img/8.png') no-repeat;
+    background-size: 98%;
+    /*background-position: 0 -110px;*/
+}
+
+.design {
+    height: 65px;
+    width: 75px;
+    background: url('../img/img/7.png') no-repeat;
+    background-size: 100%;
+    /*background-position: 0 -181px;*/
+}
+.modelling{
+    height: 65px;
+    width: 75px;
+    background: url('../img/img/9.png') no-repeat;
+    background-size: 100%;
+}
+
+.planning {
+    height: 88px;
+    width: 80px;
+    background: url('../img/img/6.png') no-repeat;
+    background-size: 100%;
+   /* background-position: 0 -246px;*/
+}
+
+.logo {
+    height: 18px;
+    width: 157px;
+    background-position: 0 -334px;
+}
+
+.logohover {
+    height: 18px;
+    width: 157px;
+    background-position: 0 -352px;
+}
+
+.case_two {
+    height: 100%;
+    width: 100%;
+    background-position: 0 -370px;
+}
+
+.case_three {
+    height: 260px;
+    width: 260px;
+    background-position: 0 -630px;
+}
+
+.case_one {
+    height: 260px;
+    width: 260px;
+    background-position: 0 -890px;
+}
+
+.case_five {
+    height: 260px;
+    width: 260px;
+    background-position: 0 -1150px;
+}
+
+.case_four {
+    height: 280px;
+    width: 280px;
+    background-position: 0 -1410px;
+}
+
+.bmxone {
+    height: 70px;
+    width: 799px;
+    background-position: 0 -1690px;
+}
+
+
+
+.imgposition>div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.imgmaring {
+    position: absolute;
+    top: 50%;
+}
+
+.imgmaringone {
+    margin-top: -44px;
+}
+
+.imgmaringtwo {
+    margin-top: -24px;
+}
+
+.imgmaringthree {
+    margin-top: -24px;
+}
+
+.imgmaringfour {
+    background: url(../img/modelling.png)no-repeat;
+    margin-top: -24px;
+    height: 80px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.over-hidden{
+    overflow: hidden;
+}
+
+/* 头部 */
+* {
+    font-family: FranklinGothic-Book;
+    font-size: 16px;
+}
+
+.nav>li>a:hover {
+    background: none;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: MongolianBaiti;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.thickening {
+    font-weight: 600;
+}
+
+.icon-bar {
+    background-color: #f4f4f4;
+}
+
+.font_blue {
+    color: #105de1;
+    font-family: MongolianBaiti;
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+#SoftwareDevelopment .fontsizeblue .font_blue {
+    font-size: 20px;
+}
+
+.font_white {
+    color: #f4f4f4;
+}
+
+.bxwz {
+    position: relative;
+}
+
+.banner_text {
+    line-height: 28px;
+}
+
+#logo {
+    background: url(../img/logo.png);
+}
+
+.navhover {
+    background: #f4f4f4;
+    color: #264683;
+}
+
+#service>li>a:hover,
+#case>li>a:hover {
+    color: #264683;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+#menu>ul.navbar-right {
+    margin-right: 45px;
+}
+
+.nav>li>a {
+    color: #f4f4f4;
+}
+
+.towardstop {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px solid;
+}
+
+/* banner */
+
+
+.bannerthree-slide {
+    background: url(../img/bannerthree.png)no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+#myCarousel {
+    width: 100%;
+    height: 960px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+}
+
+/* /banner 导航样式 */
+#myCarousel .carousel-indicators li,
+#myCarousel_two .carousel-indicators li,
+#myCarousel_three .carousel-indicators li {
+    width: 20px;
+    height: 2px;
+    margin: 1px;
+    background-color: #505051;
+    border: none;
+    border-radius: 0;
+
+}
+#tsheader >h4{
+    height: 86px;
+}
+#myCarousel_one {
+    width: 50%;
+    margin-left: 28%;
+    text-align: left;
+    margin-top: 10%;
+}
+
+#myCarousel_one>div {
+    height: 55vh;
+}
+
+.bannerh1 {
+    font-family: MongolianBaiti;
+    font-size: 50px;
+    margin: 11vh 0 12vh 27%;
+    color: #fff;
+
+}
+
+#myCarousel_one h3 {
+    margin-bottom: 3vh;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* wjl add start*/
+#myCarousel_one h3 {
+    margin-bottom: calc(2vh + 10px );
+    font-size: 24px;
+    font-weight: bold;
+}
+.font-space-4{
+    letter-spacing: 4px;
+}
+.mb-27{
+    margin-bottom: 27px;
+}
+/* wjl add end */
+
+#myCarousel_one .carousel-indicators li {
+    width: 20px;
+    height: 3px;
+    margin: 1px;
+    background-color: #505051;
+    border: none;
+    border-radius: 0;
+}
+
+#myCarousel .carousel-indicators .active,
+#myCarousel_one .carousel-indicators .active {
+    width: 40px;
+    background: #fff;
+}
+
+#myCarousel_two .carousel-indicators .active,
+#myCarousel_three .carousel-indicators .active {
+    width: 40px;
+    background: #105de1;
+}
+
+#myCarousel .carousel-indicators {
+    width: 10%;
+    left: 13%;
+    margin-left: initial;
+}
+
+.font_white h3 {
+    margin-bottom: 10px;
+}
+
+#myCarousel_one .carousel-indicators {
+    width: 25%;
+    left: 30%;
+}
+
+#myCarousel_two .carousel-indicators {
+    width: 32%;
+    left: initial;
+    margin-left: initial;
+    margin-left: -8%;
+    bottom: -15px;
+}
+
+#myCarousel_three .carousel-indicators {
+    width: 27%;
+    left: inherit;
+    bottom: -17%;
+    margin-left: -1%;
+
+}
+.icon-style{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 37px 0 25px;
+}
+.icon-services{
+    background: url('../img/img/icon-home-1.png') no-repeat;
+    background-size: 100%;
+}
+.icon-ratess{
+    background: url('../img/img/icon-home-2.png') no-repeat;
+    background-size: 100%;
+}
+.icon-modellings{
+    background: url('../img/img/icon-home-3.png') no-repeat;
+    background-size: 100%;
+}
+.icon-recordss{
+    background: url('../img/img/icon-home-4.png') no-repeat;
+    background-size: 100%;
+}
+.card:hover .icon-services{
+    background: url('../img/img/icon-home-1-copy.png') no-repeat;
+    background-size: 100%;
+}
+.card:hover .icon-ratess{
+    background: url('../img/img/icon-home-2-copy.png') no-repeat;
+    background-size: 100%;
+}
+.card:hover .icon-modellings{
+    background: url('../img/img/icon-home-3-copy.png') no-repeat;
+    background-size: 100%;
+}
+.card:hover .icon-recordss{
+    background: url('../img/img/icon-home-4-copy.png') no-repeat;
+    background-size: 100%;
+}
+/*
+*修改后的样式
+*/
+/* 头部 */
+#_header>nav {
+    padding: 10px 0;
+}
+
+#header_rates {
+    background: #105de1;
+    padding: 10px 40px;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+/*home页*/
+#home {
+    background: url(../img/homebackground.png)no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.yellow{
+    color: #ffd800;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.bule{
+    color: #0376c2;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#tsheader > p {
+    margin-bottom: 14px;
+}
+
+.homeheader {
+    color: #fff;
+    text-align: center;
+    height: 30vh;
+    margin-top: 22vh;
+}
+
+.homeheader>h4 {
+    font-size: 30px;
+    font-family: inherit;
+}
+
+.homeheader>h1 {
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.homeheader>p {
+    width: 88%;
+    margin: 4vh auto 0;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+
+#home .row {
+    height: 43vh;
+    padding: 0 70px;
+}
+
+#home .row>div>div {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 6px;
+    padding: 0px 30px;
+    color: #fff;
+    height: 48vh;
+}
+
+#home .row>div a:hover {
+    text-decoration: none;
+}
+
+.iconfont {
+    font-size: 44px;
+    color: #fff;
+    display: inline-block;
+    padding: 25px 0 25px;
+}
+
+.card h4 {
+    font-size: 26px;
+    text-transform: uppercase;
+    height: 30px;
+    color: #f6f9fa;
+    margin-bottom: 20px;
+    margin-top: 0;
+    display: table;
+}
+
+.card p {
+    color: #f6f9fa;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    height: 190px;
+    font-size: 16px;
+    margin-bottom: 69px;
+    font-family: MongolianBaiti;
+}
+
+.card h6 {
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.card h6 a {
+    color: #f6f9fa;
+}
+
+.card h4::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    transition: .3s;
+
+}
+
+.card h6::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 1px;
+    border: 1px solid #fff;
+    transition: .3s;
+    margin-top: 10px;
+}
+
+.card:hover .iconfont,
+.card:hover h6 a {
+    color: #ffd800;
+}
+
+.card:hover h4::after,
+.card:hover h6::after {
+    width: 100%;
+    border: 1px solid #ffd800;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+/* what we do */
+
+.maringtop40 {
+    margin-top: 40px;
+}
+
+/* 联系我们 */
+#contactUs {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/contactus_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.us_Explain {
+    padding-top: calc(28vh - 25px);
+    color: #fff;
+}
+.tszs{margin-left: 16%;color: #ccc;}
+#contactus_form {
+    padding-top: 15vh;
+    color: #fff;
+}
+
+#contactus_form>div:first-child>div {
+    margin-left: 8%;
+    padding-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#contactus_form>div:first-child {
+    padding-left: 10%;
+}
+
+/* .from_select  input {
+    margin-left: 12.8%;
+} */
+.cibtact_bottomborder {
+    border-bottom: 1px solid #fff;
+}
+
+.fromposition span {
+    display: inline-block;
+    width: 13%;
+    margin-right: 2%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+
+.contact_button {
+    padding-left: 16%;
+}
+
+.select_item {
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input,
+select {
+    width: 80%;
+    background: initial;
+    border: 1px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+select option {
+    background: #505051;
+    height: 25px;
+    line-height: 25px;
+}
+
+#contactus_form ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.otherinput {
+    margin-top: 15px;
+    margin-left: 15.8%;
+    display: none;
+}
+
+#contactus_form button {
+    width: 215px;
+    height: 43px;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    background: none;
+    outline: none;
+}
+
+#contactus_form .onebutton {
+    background: #105de1;
+    margin: 0 58px 0 10px;
+    border: none;
+}
+
+.fromposition>div {
+    margin-bottom: 40px
+}
+
+#_top {
+    position: fixed;
+    width: 51px;
+    height: 41px;
+    bottom: 2vh;
+    right: 8%;
+    display: none;
+}
+
+#_top>a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: url(../img/top_top.png)no-repeat;
+    background-size: 40px 30px;
+}
+
+.imgposition {
+    padding-top: 30%;
+}
+
+#contact_us .afterchoose .one_p {
+    margin-bottom: 0;
+}
+
+.p_paddingleft {
+    padding-left: 10%;
+}
+
+.colorhref {
+    color: #ffd800;
+    text-decoration: underline;
+}
+
+/*
+*修改后的样式结尾
+*/
+
+/* select样式 */
+.filter-disabled {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.filter-box {
+    position: relative;
+}
+
+.filter-box select {
+    display: none;
+}
+
+.filter-text {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 0 30px 0 10px;
+    border: 1px solid #e6e6e6;
+}
+
+
+.filter-text .filter-title {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    background-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    cursor: pointer;
+}
+
+.filter-title:focus {
+    border: none !important;
+    outline: none;
+}
+
+.filter-list {
+    display: none;
+    width: 100%;
+    max-height: 300px;
+    background-color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    z-index: 99;
+    border: 1px solid #e6e6e6;
+    overflow: auto;
+    padding: 0;
+}
+
+.filter-list li.filter-null a {
+    color: #d2d2d2;
+}
+
+.filter-list li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    color: #26272e;
+}
+
+.filter-list li a:hover {
+    text-decoration: none;
+}
+
+.filter-list li:hover {
+    background-color: #f2f2f2;
+}
+
+.filter-list li.filter-selected {
+    background-color: #105de1;
+}
+
+.filter-list li.filter-selected a {
+    display: block;
+    color: #fff;
+}
+
+.filter-list li.filter-disabled {
+    background-color: #fff;
+}
+
+.filter-list li.filter-disabled a {
+    display: block;
+    color: #d2d2d2;
+}
+
+.filter-list li.filter-disabled:hover a {
+    cursor: not-allowed !important;
+    background-color: #fff;
+}
+
+.icon {
+    position: absolute;
+}
+
+.icon-filter-arrow {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../img/jiantou.png);
+    background-size: 100%;
+    right: 10px;
+    top: 13px;
+    transition: all .2s;
+}
+
+.icon-filter-arrow.filter-show {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.filter-list::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.filter-list::-webkit-scrollbar-track {
+    background: #fff
+}
+
+.filter-list::-webkit-scrollbar-thumb {
+    background: #CBCBCB;
+}
+
+
+/* banner里面内容 */
+.banner_position {
+    padding-top: 16%;
+    font-family: MongolianBaiti;
+}
+
+.banner_position>h2 {
+    color: #f4f4f4;
+}
+
+.banner_position>h4 {
+    color: #f4f4f4;
+    margin: 35px 0 15px;
+}
+
+.banner_position>div {
+    margin-top: 35px;
+}
+
+.banner_position>div>span {
+    text-align: center;
+    padding: 15px 35px;
+    border: 1px solid #c1c5ca;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+    color: #dfe0df;
+}
+
+/* 我们能做什么 */
+#wecan {
+    height: 100vh;
+    overflow: hidden;
+    padding-right: 0;
+
+}
+
+#wecan>div:first-child {
+    padding: 0;
+    height: 100%;
+}
+
+#wecan>div:first-child>div {
+    width: 100%;
+    position: relative;
+}
+
+.h80 {
+    height: 80%;
+    padding-top: 14%;
+}
+
+.h80 p {
+    width: 88%;
+}
+
+.h20 {
+    height: 20%;
+    background: #edeef2;
+}
+
+.h20>div {
+    position: absolute;
+    bottom: -25px;
+    right: -135px;
+    z-index: 2;
+}
+
+#wecan>div:last-child {
+    height: 100%;
+    background: url(../img/we_canbackground.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 7%;
+}
+
+#canme_lb {
+    margin-top: 28%;
+}
+
+
+/* 为什么选我们 */
+#why {
+    height: 730px;
+    position: relative;
+}
+
+#why>div:first-child {
+    background: #edeef2;
+    height: 100%;
+}
+
+#why .font_blue {
+    padding-top: 100px
+}
+
+
+#myCarousel_two {
+    padding-top: 40px;
+    width: 42%;
+    padding-right: 5%;
+    height: 420px;
+}
+
+#myCarousel_two>div {
+    color: #26272e;
+    padding-right: 40px;
+}
+
+#whyP {
+    padding-top: 12%;
+}
+
+.whya {
+    color: #26272e;
+    font-size:14px;
+}
+#whyPimg {
+    position: absolute;
+    bottom: -120px;
+    right: -120px;
+    width: 55%;
+    height: 560px;
+    z-index: 2;
+}
+
+#whyPimg>img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+/* 我们如何去工作 */
+#how_worker {
+    height: 700px;
+    position: relative;
+    padding-top: 220px;
+    padding-right: 0;
+    overflow: inherit!important;
+}
+
+#how_worker>div:first-child {
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding-left: 3%;
+}
+
+#how_worker h2 {
+    margin-bottom: 70px;
+}
+
+#how_worker h2 em {
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 6px;
+}
+
+#how_worker>div:last-child {
+    position: absolute;
+    height: 550px;
+    width: 70%;
+    bottom: -120px;
+    left: -195px;
+    z-index: 2;
+    padding: 0 50px 0 90px;
+}
+
+#how_worker>div:last-child>img {
+    width: 98%;
+    height: auto;
+}
+
+#how_worker h3 {
+    margin-bottom: 90px;
+}
+
+#how_worker h3 span {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.paddingleft50 {
+    margin-left: 45px;
+}
+
+.workback1 {
+    background: url(../img/workbak1.png)no-repeat;
+}
+
+.workback2 {
+    background: url(../img/workbak2.png)no-repeat;
+}
+
+.workback3 {
+    background: url(../img/workbak3.png)no-repeat;
+}
+
+.workback4 {
+    background: url(../img/workbak4.png)no-repeat;
+}
+
+.workback5 {
+    background: url(../img/workbak5.png)no-repeat;
+}
+
+#myCarousel_three {
+    margin-top: 60px;
+    height: 210px;
+}
+
+#myCarousel_three h3 {
+    color: #26272e;
+}
+
+/* OUR SERVICE --DEV */
+#software {
+    height: 920px;
+    background-color: #edeef2;
+    padding-top: 174px;
+}
+#software>div:nth-child(1){
+    padding-bottom: 10px;
+}
+
+#software>.row>div {
+    margin-right: 40px;
+}
+
+.sortware_ico {
+    height: 180px;
+    line-height: 180px;
+    position: relative;
+}
+
+/* OUR SERVICE -- OPEATION/MAIN   OUR Service——外包团队服务*/
+#our_xs {
+    display: none;
+}
+
+#our_lg {
+    display: block;
+}
+
+#our_lg p {
+    margin-bottom: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#our_service {
+    background: url(../img/img/devBackground.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #f4f4f4;
+}
+
+#ourServiceHight {
+    height: 95vh;
+}
+#ourServiceHight>.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#our_service>div:last-child {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#our_service>div:last-child p {
+    width: 80%;
+    margin-bottom: 1%;
+}
+/* wjl Add */
+#our_service>.container>div:nth-child(1) p{
+    margin-bottom: 7px;
+}
+#our_service>.container>div:nth-child(1) p:last-child{
+    margin-bottom: 47px;
+}
+
+
+#our_service span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url(../img/choose.png)no-repeat;
+    margin-right: 3px;
+}
+
+.h50 {
+    width: 100%;
+    height: 465px;
+    background: #edeef2;
+}
+
+/* 外包团队 */
+#onservice {
+    height: 954px;
+}
+
+#backgroud_bmx {
+    background: url(../img/bmxone.png) no-repeat;
+    height: 81px;
+    line-height: 94px;
+}
+
+#onservice>div {
+    height: 100%;
+}
+
+#onservice>div:first-child {
+    position: relative;
+}
+
+#onservice>div:first-child>div {
+    position: absolute;
+    width: 114%;
+    top: 18%;
+    left: -20%;
+    height: 860px;
+    width: 110%;
+}
+
+#onservice>div:first-child>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#onservice>div:last-child {
+    padding-top: 194px;
+}
+
+#onservice>div:last-child p {
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+/* last_two */
+#last_two {
+    background: #edeef2;
+    padding-top: 120px;
+}
+#last_two h2{
+    margin-bottom: 0;
+}
+
+/* 案例分享 CASE */
+#Case {
+    overflow: hidden;
+    padding-bottom: 125px;
+    /* border-bottom: 1px solid #dadad6; */
+    /*margin-bottom: 80px;*/
+}
+
+#Case>ul {
+    padding: 0;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+#Case>ul>li {
+    width: 260px;
+    float: left;
+    list-style: none;
+    margin-right: 2%;
+}
+
+#Case>ul>li>div {
+    width: 100%;
+    height: 260px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+    margin-bottom: 38px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+
+#Case>ul>li>div>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -128px;
+    margin-left: -132px;
+}
+
+#Case>ul>li>div>img {
+    width: 100%;
+}
+
+#Case>ul>li:last-child {
+    margin-right: 0;
+}
+
+#lenovo {
+    background: #e4211b !important;
+}
+
+/* 联系我们 */
+#contact_us {
+    display: block
+}
+
+#contact_us_xs {
+    display: none
+}
+
+#contact_us h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contact_us .afterchoose p {
+    margin-bottom: 20px;
+    width: 50%;
+    float: left;
+    min-height: 50px;
+}
+
+.threeafterchoose p {
+    margin-bottom: 40px;
+}
+
+#gaia_erweima {
+    margin-left: 35px;
+}
+
+#advice p {
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px solid #707178;
+}
+
+#advice input[type=text] {
+    border: none;
+    width: 100%;
+    outline: none;
+    background: #edeef2;
+}
+
+#advice input:focus {
+    border: none;
+}
+
+#advice .advice_animate>div>div {
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.animate_mymove {
+    top: 0px !important;
+}
+
+.clearf {
+    clear: both;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+#advice input[type=checkbox] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#advice input[type=checkbox]+span {
+    vertical-align: middle;
+}
+
+#message>div {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#message>textarea {
+    margin-left: 7%;
+    width: 86%;
+    outline: none;
+    background: #edeef2;
+    border: 1px solid #707178;
+}
+
+#_button {
+    margin-top: 30px;
+}
+
+#_button>button {
+    background-color: #105de1;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    color: #f4f4f4;
+    outline: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .card h4 {
+        height: 36px;
+    }
+    .card p{
+        height: 227px;
+    }
+    #tsheader >h4{
+        height: 90px;
+    }
+    #tsheader > p{
+        margin-top: 15px;
+
+    }
+    #ourServiceHight {
+        height: initial;
+    }
+
+    #contactus_form>div:first-child>div {
+        margin-left: 6%;
+    }
+
+    #contactus_form .onebutton {
+        margin: 0 25px 0 10px;
+    }
+
+    #contactus_form button {
+        width: 200px;
+    }
+    .homeheader{
+        margin-top: 12vh;
+    }
+    .homeheader p{
+        margin: 0 auto;
+    }
+    #home .row>div>div{
+        height:58vh;
+        padding:0 15px;
+    }
+    .iconfont {
+        font-size: 36px;
+    }
+}
+
+
+/* wjl Add Start*/
+.bac-box{
+    position: relative;
+}
+.bac-box>div{
+    color: #f9fafc;
+    font-size: 100px;
+    font-family: MongolianBaiti;
+    letter-spacing: 5px;
+}
+.bac-box>h2{
+    position: absolute;
+    letter-spacing: 5px;
+    bottom: 20px;
+}
+#tsheader{
+    position: relative;
+}
+.symbol{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 10px;
+    text-align: center;
+    background-color: rgba(255,216,0, 0.7);
+    border-top-right-radius: 6px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: MongolianBaiti;
+}
+.display-none{
+    display: none;
+}
+.wecan-title{
+    padding-top: 0px;
+    color: #0f0f0f;
+    margin: 160px 0 0vh 27%;
+    font-size: 50px;
+}
+.btn-box{
+    padding-top: 30px;
+}
+.btn-box>div{
+    display: inline-block;
+    border-radius: 30px;
+    border: solid 1px #105de1;
+    box-sizing: border-box;
+    padding: 10px 24px;
+    color: #105de1;
+    margin-right: 21px;
+    cursor: pointer;
+}
+.btn-box>div:last-child{
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+#myCarousel_one>div{
+    overflow-y: auto;
+    height: 42vh;
+    box-sizing: border-box;
+    padding-right: 40px;
+
+}
+#myCarousel_two>div{
+    height: 36vh;
+    overflow-y: auto;
+}
+.border-top{
+    border-top: 1px solid #e6e6e6;
+}
+#how_worker h3{
+    margin-bottom: 40px;
+}
+.btn-blue{
+    background-color: #105de1;
+    color: #ffffff!important;
+}
+.icon-modelling{
+    font-size: 40px;
+}
+.pc-footer{
+    padding: 70px 0 40px 0;
+}
+.banner_position>h4:last-child{
+    margin: -10px 0 15px;
+}
+.banner_position>h2:nth-child(2){
+    margin-top: 0!important;
+}
+.gaia-card{
+    margin-top: -30px;
+}
+.container{
+    height: 100%;
+    overflow: hidden;
+}
+#home .row>div>div{
+    height: 52vh;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+.card p{
+    margin-bottom: 74px;
+}
+#tsheader > p{
+    margin-bottom: 24px;
+}
+.card h4{
+    margin-bottom: 30px;
+    position: relative;
+}
+.card h4::after{
+    position: absolute;
+    bottom: -8px;
+}
+.h20>div {
+    bottom: 129px;
+}
+.btn-box>div:nth-child(1){
+    padding: 10px 36px;
+}
+.btn-box>div:nth-child(2){
+    padding: 10px 46px;
+}
+#part2, #part3{
+    margin-top: 70px;
+}
+#myCarousel_one h3:nth-child(1){
+    margin-top: 0;
+}
+#whyP{
+    padding-top: 125px;
+}
+#myCarousel_two .banner_text {
+    padding-top: 10px;
+    padding-bottom: 53px;
+}
+#ourServiceHight>.row{
+    width: 100%;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.mb-26{
+    margin-bottom: 26px;
+}
+.mb-52{
+    margin-bottom: 52px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.font-style{
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #26272e;
+}
+.font-letter-1{
+    letter-spacing: 1px;
+}
+.font-letter-2{
+    letter-spacing: 2px;
+}
+.font-letter-3{
+    letter-spacing: 3px;
+}
+.font-letter-4{
+    letter-spacing: 4px;
+}
+.font-letter-5{
+    letter-spacing: 5px;
+}
+.nowrap{
+    white-space: nowrap;
+}
+/* wjl Add End*/
+
+
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    h2,
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .icon-bar-hd {
+        background: #105de1;
+    }
+
+    .no_padding {
+        padding: initial;
+    }
+    .no_paddingleft {
+        padding-left: initial;
+    }
+
+    .banner_text {
+        color: #26272e;
+        line-height: 15px;
+        padding-top: 5px;
+    }
+
+    #logo {
+        width: 60%;
+        background: initial;
+    }
+
+    #myCarousel {
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner_position {
+        padding-top: 16%;
+
+    }
+
+    .banner_position>h2 {
+        font-size: 15px;
+    }
+
+    .banner_position>p {
+        margin: 10px 0 10px;
+        font-size: 14px;
+    }
+
+    .banner_position>div {
+        margin-top: 20px;
+    }
+
+    .banner_position>div>span {
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #f4f4f4;
+        border-radius: 20px;
+        margin-right: 15px;
+        margin-top: 20px;
+        font-size: 10px;
+        line-height: 35px;
+    }
+
+    /* /banner 导航样式 */
+    #myCarousel .carousel-indicators li,
+    #myCarousel_two .carousel-indicators li,
+    #myCarousel_three .carousel-indicators li {
+        width: 10px;
+        height: 1px;
+        margin: 1px;
+        background-color: #505051;
+        border: none;
+        border-radius: 0;
+    }
+    #home{
+        height: 128vh;
+    }
+    #myCarousel_one .carousel-indicators li {
+        width: 10px;
+        height: 2px;
+        margin: 1px;
+        background-color: #505051;
+        border: none;
+        border-radius: 0;
+    }
+
+    #myCarousel .carousel-indicators .active,
+    #myCarousel_one .carousel-indicators .active {
+        width: 20px;
+        background: #fff;
+    }
+
+    #myCarousel_two .carousel-indicators .active,
+    #myCarousel_three .carousel-indicators .active {
+        width: 20px;
+        background: #105de1;
+    }
+
+    #myCarousel .carousel-indicators {
+        width: 20%;
+        bottom: -5px;
+        left: 33%;
+    }
+
+    #myCarousel_one .carousel-indicators {
+        width: 56%;
+        left: inherit;
+        bottom: -10%;
+        right: -10%;
+    }
+
+    #myCarousel_two .carousel-indicators {
+        width: 34%;
+        left: initial;
+        margin-left: initial;
+        top: 103%;
+        margin-left: -5%;
+    }
+
+    #myCarousel_three .carousel-indicators {
+        width: 50%;
+        left: inherit;
+        bottom: -17%;
+    }
+
+    .smallhide {
+        display: none
+    }
+
+    .homeheader {
+        margin-top: 13vh;
+        height: 16vh;
+    }
+
+    .homeheader>h4 {
+        font-size: initial;
+    }
+
+    .homeheader>h1 {
+        font-size: 20px;
+    }
+
+    .homeheader>p {
+        margin: initial;
+        width: initial;
+        line-height: initial;
+        font-size: 16px;
+    }
+
+    #home .row {
+        padding: initial;
+        height: 30vh;
+        margin-top: 15vh;
+    }
+
+    #home .row>div>div {
+        height: initial;
+        margin-bottom: 1vh;
+    }
+
+    .iconfont {
+        padding: initial;
+    }
+
+    .card h4 {
+        height: initial;
+        margin-bottom: initial;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .card p {
+        color: #f6f9fa;
+        line-height: initial;
+        letter-spacing: initial;
+        height: initial;
+        font-size: 14px;
+        margin-bottom: initial;
+        font-family: MongolianBaiti;
+    }
+
+    .iconfont {
+        font-size: 30px;
+    }
+
+    .bannerh1 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
+
+    #myCarousel_one>div {
+        height: initial;
+    }
+
+
+
+    /* wjl Add Start*/
+    #myCarousel_one>div {
+        height: 42vh;
+        padding-top: 20px;
+    }
+    .icon-modelling{
+        font-size: 28px;
+    }
+    .btn-box>div{
+        padding: 4px 10px!important;
+        margin-top: 5px;
+    }
+    .btn-box>div:last-child{
+        margin-top: 5px;
+    }
+    .wecan-title{
+        margin-left: 15px!important;
+        padding-top: 50px!important;
+    }
+    .bac{
+        font-size: 25px!important;
+    }
+    /* wjl Add End */
+
+    #myCarousel_one {
+        width: 100%;
+        margin-left: initial;
+        text-align: left;
+        margin-top: initial;
+    }
+
+    #myCarousel_one h3 {
+        margin-bottom: initial;
+        font-size: inherit;
+        font-weight: initial;
+    }
+
+    #myCarousel_one .banner_text {
+        color: #fff;
+    }
+
+    .font_blue {
+        margin: 20px 0 0 0;
+        font-size: 20px;
+    }
+
+    #how_worker h2 em {
+        display: block;
+    }
+
+    #how_worker h2 {
+        margin-bottom: initial;
+    }
+
+    .maringtop40 {
+        margin-top: 20px;
+    }
+
+    .paddingleft50 {
+        margin-left: initial;
+    }
+
+    #how_worker h3 {
+        margin: initial;
+        width: 75%;
+    }
+
+    #how_worker .thickening {
+        font-weight: initial;
+    }
+    #tsheader > p{
+        margin: initial;
+    }
+    /* 我们能做什么 */
+    #wecan {
+        height: 400px;
+        margin-left: initial;
+        padding-left: initial;
+    }
+
+    .h80 {
+        padding: initial;
+        margin: initial;
+    }
+
+    .h80 p {
+        width: initial;
+    }
+
+    .h20>div {
+        bottom: -25px;
+        right: -55px;
+        z-index: 2;
+        width: 126%;
+        height: 170%;
+    }
+
+    .h20>div>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wecan>div:last-child {
+        padding-top: initial;
+    }
+
+    #canme_lb {
+        margin: initial;
+    }
+
+    #myCarousel_one .item>p {
+        padding: initial;
+    }
+
+    /* <!-- DEF--为什么选择我们 --> */
+    #why {
+        height: initial;
+        padding: initial;
+    }
+
+    #why .font_blue {
+        padding-top: 20px;
+    }
+
+    #why .banner_text {
+        width: 50%;
+    }
+
+    #myCarousel_two {
+        padding-top: 10px;
+        height: 345px;
+        width: 100%;
+    }
+
+    #whyP {
+        padding-bottom: 40px;
+    }
+
+    #whyPimg {
+        bottom: -26px;
+        right: -50px;
+        width: 57%;
+        height: 237px;
+    }
+
+    #how_worker {
+        height: initial;
+        position: relative;
+        padding-top: 50px;
+    }
+
+    #how_worker>div:last-child {
+        position: absolute;
+        height: 251px;
+        width: 190px;
+        bottom: -100px;
+        z-index: 2;
+        left: 15px;
+        padding: 0;
+    }
+
+    #myCarousel_three {
+        height: 150px;
+    }
+
+    #software {
+        height: initial;
+        background-color: #edeef2;
+        padding-top: 150px;
+    }
+
+    #software h2 {
+        background: url(../img/bmxone.png) no-repeat;
+        height: 81px;
+        line-height: 94px;
+        background-size: 100%;
+        background-position: 0 32px;
+    }
+
+    #software>.row>div {
+        margin-right: initial;
+    }
+
+    #software {
+        padding-bottom: 30px;
+    }
+
+    /* OUR SERVICE -- OPEATION/MAIN   OUR Service——外包团队服务*/
+    #our_xs {
+        display: block;
+        margin: 0
+    }
+
+    #our_lg {
+        display: none;
+    }
+
+    #our_service>div:last-child p {
+        width: initial;
+        margin: initial;
+    }
+
+    #our_service {
+        height: initial;
+        padding-bottom: 30px;
+    }
+
+    #onservice {
+        height: initial;
+    }
+
+    #ourServiceHight>.row {
+        margin: initial;
+    }
+
+    .gaia {
+        display: inline-block;
+    }
+
+    .gaia_erweima {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .bannerthree-slide {
+        height: 50vh;
+    }
+
+    #Case>ul>li {
+        width: 100%;
+    }
+
+    #backgroud_bmx {
+        height: initial;
+        line-height: initial;
+        background: initial;
+    }
+
+    #onservice>div:last-child {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #onservice>div:last-child p {
+        line-height: initial;
+        margin-bottom: initial;
+    }
+
+    #onservice>div:first-child>div {
+        position: absolute;
+        width: 80%;
+        top: initial;
+        left: 19%;
+        height: initial;
+        bottom: -527px;
+    }
+
+    #onservice>div:first-child>div>img {
+        width: 100%;
+    }
+
+    /* 表单 */
+    .us_Explain {
+        padding-top: 20px;
+    }
+
+    #contactus_form {
+        padding-top: 20px;
+    }
+
+    #contactus_form>div:first-child>div {
+        margin-left: 6%;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    #contactus_form>div:first-child {
+        padding-left: initial;
+    }
+
+    #contactus_form button {
+        width: 100px;
+    }
+
+    /* last_two */
+    #last_two {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    #contact_us {
+        display: none;
+    }
+
+    #contact_us_xs {
+        display: block;
+    }
+
+    /* 案例分享 CASE */
+    #Case {
+        overflow: hidden;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #dadad6;
+        margin-bottom: 40px;
+    }
+
+    #Case>ul {
+        margin-top: 40px;
+    }
+
+    #Case>ul>li>div {
+        height: 220px;
+    }
+
+    #advice {
+        margin-top: 40px;
+    }
+
+    .form-control {
+        width: 93%;
+        margin-left: 15px;
+        margin-top: 10px;
+        outline: none;
+        border: 1px solid #707178;
+    }
+}
+
+
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 200px 2fr;
+}
+
+#container .item {
+    font-size: 1em;
+    text-align: center;
+    border: 1px solid #e5e4e9;
+}
+
+.item-1 {
+    background-color: #ef342a;
+}
+
+.item-2 {
+    background-color: #f68f26;
+}
+
+.item-3 {
+    background-color: #4ba946;
+}
+
+.item-4 {
+    background-color: #0376c2;
+}
+
+.item-5 {
+    background-color: #c077af;
+}
+
+.item-6 {
+    background-color: #f8d29d;
+}
+
+.item-7 {
+    background-color: #b5a87f;
+}
+
+.item-8 {
+    background-color: #d0e4a9;
+}
+
+.item-9 {
+    background-color: #4dc7ec;
+}
+.font-FranklinGothic-Book{
+    font-family: FranklinGothic-Book!important;
+}
+.font-MongolianBaiti{
+    font-family: MongolianBaiti!important;
+}
